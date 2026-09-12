@@ -1,0 +1,74 @@
+@import './styles/variables.css';
+@import './styles/base.css';
+
+/* Keyframe animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Product Card Hover effects matching NEXURA reference */
+.product-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: #D4D4D8;
+}
+
+.product-card-hover:hover .product-card-img {
+  transform: scale(1.04);
+}
+
+.store-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: #18181B;
+}
+
+/* Responsive Navigation & Grid */
+@media (min-width: 900px) {
+  .desktop-nav {
+    display: flex !important;
+  }
+  .desktop-search {
+    display: block !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 860px) {
+  .seller-dashboard-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .spotlight-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F1F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4D4D8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A1A1AA;
+}

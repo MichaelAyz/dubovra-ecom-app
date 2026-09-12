@@ -1,0 +1,61 @@
+:root {
+  /* Typography */
+  --font-display: 'Syne', 'Oswald', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Color Palette — Reference Aesthetic: Clean, High-Contrast Minimalist Luxury with Emerald Nigerian Touch */
+  --bg-page: #FFFFFF;
+  --bg-subtle: #F8F9FA;
+  --bg-card: #F3F4F6;
+  --bg-card-hover: #EBECEF;
+  --bg-dark: #0A0A0C;
+  --bg-dark-card: #141418;
+  --bg-dark-card-hover: #1F1F24;
+  
+  --text-primary: #0A0A0C;
+  --text-secondary: #52525B;
+  --text-muted: #8F9098;
+  --text-inverse: #FFFFFF;
+  --text-inverse-muted: #A1A1AA;
+
+  /* Brand Accents */
+  --accent-black: #0A0A0C;
+  --accent-black-hover: #27272A;
+  --accent-emerald: #059669;
+  --accent-emerald-light: #ECFDF5;
+  --accent-emerald-dark: #047857;
+  --accent-amber: #F59E0B;
+  --accent-amber-light: #FEF3C7;
+  --accent-blue: #2563EB;
+  --accent-red: #DC2626;
+  --accent-red-light: #FEE2E2;
+
+  /* Borders & Dividers */
+  --border-subtle: #E4E4E7;
+  --border-light: #F1F1F4;
+  --border-dark: #27272A;
+
+  /* Radius */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-hover: 0 12px 24px -4px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+  --shadow-elevated: 0 20px 35px -5px rgba(0, 0, 0, 0.12), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-modal: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout */
+  --max-width: 1280px;
+  --header-height: 72px;
+}
